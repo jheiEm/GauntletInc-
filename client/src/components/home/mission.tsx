@@ -27,10 +27,10 @@ export function Mission() {
                 <div className="absolute inset-0 bg-primary bg-opacity-20"></div>
               </div>
               
-              <div className="md:w-1/2 p-8 md:p-12 flex items-center">
-                <div>
+              <div className="md:w-1/2 p-6 md:p-8 flex items-center">
+                <div className="space-y-6">
                   <motion.h3 
-                    className="text-2xl md:text-3xl font-semibold text-white mb-6 font-heading"
+                    className="text-2xl md:text-3xl font-semibold text-white font-heading"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -40,7 +40,7 @@ export function Mission() {
                   </motion.h3>
                   
                   <motion.p 
-                    className="text-xl text-white leading-relaxed"
+                    className="text-lg text-white leading-relaxed"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
@@ -50,7 +50,7 @@ export function Mission() {
                   </motion.p>
                   
                   <motion.div 
-                    className="mt-10 flex flex-wrap gap-4"
+                    className="flex flex-wrap gap-4"
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     viewport={{ once: true }}
