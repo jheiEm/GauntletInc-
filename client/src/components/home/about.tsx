@@ -31,21 +31,13 @@ export function About() {
         />
         
         <motion.div 
-          className="flex flex-col md:flex-row items-center gap-12"
+          className="md:max-w-3xl lg:max-w-4xl mx-auto"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <motion.div className="md:w-1/2" variants={childVariants}>
-            <img 
-              src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-              alt="Advanced Technology Systems" 
-              className="rounded-lg shadow-xl w-full h-auto"
-            />
-          </motion.div>
-          
-          <div className="md:w-1/2">
+          <div className="bg-white rounded-lg shadow-lg p-8">
             <motion.p className="text-lg mb-6 leading-relaxed" variants={childVariants}>
               Gauntlet Inc. is a premier solutions integration company specializing in the implementation of Service-Oriented Architecture (SOA) frameworks. We are dedicated to empowering our clients and partners to drive digital transformation and operational excellence by adopting modular, scalable, and service-centric architectures.
             </motion.p>
