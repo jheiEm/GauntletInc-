@@ -23,15 +23,15 @@ export function Footer() {
         >
           <div className="mb-6 md:mb-0">
             <h2 className="text-2xl font-bold font-heading">GAUNTLET<span className="text-accent">INC</span></h2>
-            <p className="mt-2">Driving Digital Transformation Through Integration Excellence</p>
+            <p className="mt-2 text-gray-300">Driving Digital Transformation Through Integration Excellence</p>
           </div>
           
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-8">
             {links.map((link, index) => (
               <a 
                 key={index} 
                 href={link.href} 
-                className="hover:text-accent transition-colors duration-300"
+                className="text-gray-300 hover:text-accent transition-colors duration-300 px-2 py-1"
               >
                 {link.label}
               </a>
@@ -40,13 +40,13 @@ export function Footer() {
         </motion.div>
         
         <motion.div 
-          className="border-t border-gray-700 mt-8 pt-8 text-center text-sm"
+          className="border-t border-gray-700 mt-8 pt-8 text-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          <p>&copy; {new Date().getFullYear()} Gauntlet Inc. All rights reserved.</p>
+          <p className="text-gray-300">&copy; {new Date().getFullYear()} Gauntlet Inc. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

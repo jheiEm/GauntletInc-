@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { SectionHeader } from "../ui/section-header";
-const serverImage = "/attached_assets/pexels-cookiecutter-1148820.jpg";
+const serverImage = "/static/pexels-cookiecutter-1148820.jpg";
 import { FolderSync, Zap, HandshakeIcon } from "lucide-react";
 
 export function Mission() {

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { SectionHeader } from "../ui/section-header";
-const programmingImage = "/attached_assets/programming-background-with-person-working-with-codes-computer.jpg";
+const programmingImage = "/static/programming-background-with-person-working-with-codes-computer.jpg";
 import { CheckCircle } from "lucide-react";
 
 export function Approach() {

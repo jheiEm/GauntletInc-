@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { SectionHeader } from "../ui/section-header";
-// Using a require statement to avoid file extension issues
-const directorImage = "/attached_assets/Director_Miguel Marco A. Bitanga (0N5A9496) 1.JPG";
+// Using static path for images
+const directorImage = "/static/Director_Miguel Marco A. Bitanga (0N5A9496) 1.JPG";
 import { ArrowRight } from "lucide-react";
 
 export function Leadership() {
