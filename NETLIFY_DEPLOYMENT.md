@@ -18,7 +18,7 @@ This guide will help you deploy the Gauntlet Inc. website frontend to your Netli
    - Choose your Git provider (GitHub, GitLab, etc.)
    - Select your repository
    - Configure build settings as follows:
-     - **Build command**: `node netlify-build.js`
+     - **Build command**: `node netlify-build.mjs`
      - **Publish directory**: `dist/public`
 
 2. **Deploy the site**:
@@ -34,7 +34,7 @@ This guide will help you deploy the Gauntlet Inc. website frontend to your Netli
 
 2. **Build your site locally**:
    ```bash
-   node netlify-build.js
+   node netlify-build.mjs
    ```
 
 3. **Deploy to Netlify**:
@@ -42,6 +42,15 @@ This guide will help you deploy the Gauntlet Inc. website frontend to your Netli
    netlify deploy --prod
    ```
    When prompted, select the `dist/public` directory as your publish directory.
+
+## Deployed Files
+
+After a successful build, the following files will be created in the `dist/public` directory:
+- `index.html` - The main HTML file
+- `assets/index-*.css` - The compiled CSS file
+- `assets/index-*.js` - The compiled JavaScript file
+
+The total built package is approximately 582KB (64KB for CSS and 517KB for JS).
 
 ## Environment Variables
 
@@ -65,7 +74,7 @@ To test your build locally before deployment:
 
 ```bash
 # Build the frontend
-node netlify-build.js
+node netlify-build.mjs
 
 # Install a simple HTTP server if you don't have one
 npm install -g serve
