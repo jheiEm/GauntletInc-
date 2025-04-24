@@ -8,15 +8,15 @@ export function Stats() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="p-6">
-              <Counter end={50} prefix="" suffix="+" />
+              <Counter end={5} prefix="" suffix="+" />
               <p className="text-xl">Projects Completed</p>
             </div>
             <div className="p-6">
-              <Counter end={25} delay={0.2} />
+              <Counter end={10} delay={0.2} />
               <p className="text-xl">Industry Specialists</p>
             </div>
             <div className="p-6">
-              <Counter end={8} delay={0.4} />
+              <Counter end={2} delay={0.4} />
               <p className="text-xl">Years of Excellence</p>
             </div>
           </div>
