@@ -20,7 +20,7 @@ export default function Home() {
       
       <Hero />
       <About />
-      <Stats />
+      /*<Stats />*/
       <Leadership />
       <Mission />
       <Approach />
