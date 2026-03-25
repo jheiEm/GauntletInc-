@@ -1,6 +1,7 @@
 
 import { motion } from "framer-motion";
 import { PhoneCall, Mail, MapPin } from "lucide-react";
+import { Link } from "wouter";
 
 export function Footer() {
   const links = [
@@ -70,7 +71,7 @@ export function Footer() {
           </div>
         </motion.div>
         
-        <motion.div 
+        <motion.div
           className="border-t border-gray-700 mt-12 pt-8 text-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -78,6 +79,11 @@ export function Footer() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <p className="text-gray-300">&copy; {new Date().getFullYear()} Gauntlet Inc. All rights reserved.</p>
+          <p className="mt-2">
+            <Link href="/privacy-policy" className="text-gray-400 hover:text-accent transition-colors duration-300 text-sm">
+              Privacy Policy
+            </Link>
+          </p>
         </motion.div>
       </div>
     </footer>
