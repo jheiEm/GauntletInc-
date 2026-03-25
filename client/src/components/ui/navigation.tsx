@@ -7,13 +7,13 @@ interface NavigationLink {
 }
 
 const links: NavigationLink[] = [
-  { href: "#about", label: "About Us" },
-  { href: "#leadership", label: "Leadership" },
-  { href: "#mission", label: "Mission" },
-  { href: "#approach", label: "Approach" },
-  { href: "#services", label: "Services" },
-  { href: "#clients", label: "Clients" },
-  { href: "#contact", label: "Contact Us" }
+  { href: "/#about", label: "About Us" },
+  { href: "/#leadership", label: "Leadership" },
+  { href: "/#mission", label: "Mission" },
+  { href: "/#approach", label: "Approach" },
+  { href: "/#services", label: "Services" },
+  { href: "/#clients", label: "Clients" },
+  { href: "/#contact", label: "Contact Us" }
 ];
 
 export function Navigation() {

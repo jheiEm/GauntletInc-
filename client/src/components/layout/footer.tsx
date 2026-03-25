@@ -5,12 +5,12 @@ import { Link } from "wouter";
 
 export function Footer() {
   const links = [
-    { href: "#about", label: "About" },
-    { href: "#leadership", label: "Leadership" },
-    { href: "#mission", label: "Mission" },
-    { href: "#approach", label: "Approach" },
-    { href: "#services", label: "Services" },
-    { href: "#contact", label: "Contact" }
+    { href: "/#about", label: "About" },
+    { href: "/#leadership", label: "Leadership" },
+    { href: "/#mission", label: "Mission" },
+    { href: "/#approach", label: "Approach" },
+    { href: "/#services", label: "Services" },
+    { href: "/#contact", label: "Contact" }
   ];
 
   return (
@@ -34,7 +34,7 @@ export function Footer() {
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 text-accent mr-3" />
-                <span>contact@gauntletinc.com</span>
+                <span>Admin@gauntlet.ph</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 text-accent mr-3" />
