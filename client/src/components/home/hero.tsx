@@ -21,8 +21,8 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
           >
-            <span className="block mb-2">Driving Digital Transformation</span>
-            <span className="block">Through Integration Excellence</span>
+            <span className="block mb-2">Connected Systems.</span>
+            <span className="block">Measurable Outcomes.</span>
           </motion.h1>
           
           <motion.p 
@@ -31,7 +31,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
           >
-            Empowering businesses with modular, scalable, and service-centric architectures
+            SOA and ESB integration, data platforms and managed IT for enterprises ready to modernize
           </motion.p>
           
           <motion.div 

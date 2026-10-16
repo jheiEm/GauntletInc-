@@ -41,13 +41,10 @@ export function Clients() {
                   "Gauntlet Inc. transformed our operations through their integration expertise, resulting in significant improvements in our customer service metrics and internal workflows."
                 </blockquote>
                 
-                <p className="text-lg mb-4">
-                  Served as digital transformation partner, integrating service systems and enhancing operational workflows
-                </p>
-                
-                <p className="text-lg">
-                  Supported automation and system orchestration to improve customer service and data integrity
-                </p>
+                <ul className="space-y-2 text-lg">
+                  <li className="flex items-start"><span className="text-accent mr-3">✓</span>Digital transformation partner for service systems and workflows</li>
+                  <li className="flex items-start"><span className="text-accent mr-3">✓</span>Automation and orchestration for better customer service and data integrity</li>
+                </ul>
                 
                 <div className="mt-8">
                   <a href="#contact" className="text-accent hover:text-secondary font-medium transition-colors duration-300 inline-flex items-center">

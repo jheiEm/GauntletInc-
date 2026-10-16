@@ -23,9 +23,8 @@ export function Mission() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            To help organizations achieve operational excellence and business agility 
-            through advanced integration frameworks, proprietary technology accelerators, 
-            and strategic industry collaborations.
+            Operational excellence and business agility for every client, delivered through
+            integration frameworks, proprietary accelerators and strategic partnerships.
           </motion.p>
           
           <motion.div 

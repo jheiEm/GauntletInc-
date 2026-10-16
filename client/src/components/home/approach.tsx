@@ -26,12 +26,12 @@ export function Approach() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-2xl font-semibold text-primary mb-6 font-heading">Our Business-Outcome Led Approach</h3>
+            <h3 className="text-2xl font-semibold text-primary mb-4 font-heading">Outcomes first, technology second</h3>
             <p className="text-lg mb-8 leading-relaxed">
-              We take a business-outcome-led approach, combining deep retail domain expertise with a structured, phased execution methodology. Each engagement is tailored to align technology with the client's business goals from day one.
+              Retail domain expertise and a phased delivery method, with every engagement tied to your business goals from day one.
             </p>
             
-            <h4 className="text-xl font-semibold text-primary mb-4 font-heading">Our Core Capabilities Include:</h4>
+            <h4 className="text-xl font-semibold text-primary mb-4 font-heading">Core capabilities</h4>
             
             <motion.ul 
               className="space-y-4"
@@ -44,34 +44,31 @@ export function Approach() {
                 <div className="text-accent mr-3 mt-1">
                   <CheckCircle size={20} />
                 </div>
-                <div>Seamless system integration using Enterprise Service Bus (ESB)</div>
+                <div><strong className="text-primary">ESB integration:</strong> one bus connecting all your systems</div>
               </motion.li>
               
               <motion.li className="flex items-start" variants={listItemVariants}>
                 <div className="text-accent mr-3 mt-1">
                   <CheckCircle size={20} />
                 </div>
-                <div>Retail-optimized CRM, Helpdesk, and Data Management platforms</div>
+                <div><strong className="text-primary">Retail platforms:</strong> CRM, helpdesk and data management</div>
               </motion.li>
               
               <motion.li className="flex items-start" variants={listItemVariants}>
                 <div className="text-accent mr-3 mt-1">
                   <CheckCircle size={20} />
                 </div>
-                <div>Flexible project delivery across cloud, on-premise, or hybrid infrastructures</div>
+                <div><strong className="text-primary">Any infrastructure:</strong> cloud, on-premise or hybrid</div>
               </motion.li>
               
               <motion.li className="flex items-start" variants={listItemVariants}>
                 <div className="text-accent mr-3 mt-1">
                   <CheckCircle size={20} />
                 </div>
-                <div>Ongoing support through technical consulting, managed services, and mentorship</div>
+                <div><strong className="text-primary">Ongoing support:</strong> consulting, managed services and mentorship</div>
               </motion.li>
             </motion.ul>
-            
-            <p className="text-lg mt-6 leading-relaxed">
-              This approach ensures that every Gauntlet solution aligns with strategic business goals, scales with growth, and delivers measurable impact.
-            </p>
+
           </motion.div>
           
           <motion.div 

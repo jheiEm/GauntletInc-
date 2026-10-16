@@ -7,36 +7,36 @@ const services = [
     icon: <Network size={28} />,
     title: "Enterprise Service Bus (ESB) Integration",
     features: [
-      "Central integration of CRM, Retail, and Helpdesk platforms",
-      "Enables real-time, automated data and process flow",
-      "Reduces manual handoffs, improves efficiency, and lowers cost"
+      "Connects CRM, retail and helpdesk platforms",
+      "Real-time, automated data and process flow",
+      "Fewer manual handoffs, lower cost"
     ]
   },
   {
     icon: <BarChart3 size={28} />,
     title: "Integrated Reporting & CLV Framework",
     features: [
-      "Role-based dashboards for agents, managers, and customers",
-      "Mobile and web app delivery of actionable insights",
-      "Real-time monitoring of customer interactions and enterprise metrics"
+      "Role-based dashboards for agents, managers and customers",
+      "Insights on mobile and web",
+      "Live view of customer interactions and enterprise metrics"
     ]
   },
   {
     icon: <Cloud size={28} />,
     title: "Cloud or On-Premise Deployment",
     features: [
-      "Offers flexible deployment depending on client infrastructure",
-      "Partners with global cloud providers to deliver scalable, secure environments",
-      "Supports IaaS, SaaS, and PaaS models"
+      "Deploys on your infrastructure of choice",
+      "Scalable, secure environments with global cloud partners",
+      "IaaS, SaaS and PaaS models"
     ]
   },
   {
     icon: <Cog size={28} />,
     title: "Managed IT Services",
     features: [
-      "Full-cycle IT support and operations management",
-      "Change, configuration, and incident handling",
-      "Application monitoring, optimization, and enhancement"
+      "Full-cycle IT support and operations",
+      "Change, configuration and incident management",
+      "Application monitoring and optimization"
     ]
   }
 ];
@@ -47,7 +47,7 @@ export function Services() {
       <div className="container mx-auto px-4">
         <SectionHeader 
           title="Integration Stack" 
-          subtitle="Our comprehensive suite of services designed to transform your business operations and enhance your digital capabilities."
+          subtitle="Four services that connect, measure, host and run your enterprise systems."
         />
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

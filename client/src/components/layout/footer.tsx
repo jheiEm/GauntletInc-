@@ -25,19 +25,19 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <h2 className="text-2xl font-bold font-heading mb-4">GAUNTLET<span className="text-accent">INC</span></h2>
-            <p className="text-gray-300 mb-6">Driving Digital Transformation Through Integration Excellence</p>
+            <p className="text-gray-300 mb-6">Connected systems. Measurable outcomes.</p>
             <div className="space-y-3">
               <div className="flex items-center">
                 <PhoneCall className="w-5 h-5 text-accent mr-3" />
-                <span>+63 2 8123 4567</span>
+                <span>(02) 8817-3158</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 text-accent mr-3" />
-                <span>contact@gauntletinc.com</span>
+                <span>Admin@gauntlet.ph</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 text-accent mr-3" />
-                <span>Metro Manila, Philippines</span>
+                <span>Makati City, Philippines</span>
               </div>
             </div>
           </div>
