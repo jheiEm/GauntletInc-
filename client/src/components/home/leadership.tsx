@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { SectionHeader } from "../ui/section-header";
 // Using static path for images
 const directorImage = "/static/Director_Miguel Marco A. Bitanga (0N5A9496) 1.JPG";
+const albertoImage = "/static/Management_Alberto-P-Ambuyo.jpg";
 import { ArrowRight } from "lucide-react";
 
 export function Leadership() {
@@ -95,7 +96,7 @@ export function Leadership() {
         </motion.div>
 
         <motion.div 
-          className="flex flex-col md:flex-row items-center gap-12 mt-16"
+          className="flex flex-col md:flex-row-reverse items-center gap-12 mt-20"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -105,9 +106,12 @@ export function Leadership() {
             className="md:w-2/5"
             variants={childVariants}
           >
-            {/* Placeholder until a photo of Alberto is added to /static */}
-            <div className="rounded-lg overflow-hidden shadow-xl bg-primary aspect-[4/5] flex items-center justify-center">
-              <span className="text-white text-6xl font-semibold font-heading">AA</span>
+            <div className="rounded-lg overflow-hidden shadow-xl max-w-sm mx-auto">
+              <img 
+                src={albertoImage} 
+                alt="Alberto P. Ambuyo" 
+                className="w-full h-auto"
+              />
             </div>
           </motion.div>
           
