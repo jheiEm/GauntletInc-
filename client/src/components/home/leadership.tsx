@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { SectionHeader } from "../ui/section-header";
 // Using static path for images
 const directorImage = "/static/Director_Miguel Marco A. Bitanga (0N5A9496) 1.JPG";
+const albertoImage = "/static/Management_Alberto-P-Ambuyo.jpg";
 import { ArrowRight } from "lucide-react";
 
 export function Leadership() {
@@ -91,6 +92,48 @@ export function Leadership() {
                 <ArrowRight size={16} />
               </a>
             </motion.div>
+          </div>
+        </motion.div>
+
+        <motion.div 
+          className="flex flex-col md:flex-row-reverse items-center gap-12 mt-20"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+          <motion.div 
+            className="md:w-2/5"
+            variants={childVariants}
+          >
+            <div className="rounded-lg overflow-hidden shadow-xl max-w-sm mx-auto">
+              <img 
+                src={albertoImage} 
+                alt="Alberto P. Ambuyo" 
+                className="w-full h-auto"
+              />
+            </div>
+          </motion.div>
+          
+          <div className="md:w-3/5">
+            <motion.h3 
+              className="text-2xl font-semibold text-primary mb-4 font-heading"
+              variants={childVariants}
+            >
+              Alberto P. Ambuyo
+            </motion.h3>
+            
+            <motion.p className="text-lg mb-6 leading-relaxed" variants={childVariants}>
+              Alberto P. Ambuyo is the former Vice President and Chief Information Officer (CIO) of the Philippine Telegraph and Telephone Corporation (PT&T). He has since transferred to PT&T's parent company, Menlo Capital, and brings over 30 years of experience in the IT industry.
+            </motion.p>
+            
+            <motion.p className="text-lg mb-6 leading-relaxed" variants={childVariants}>
+              Before PT&T, Alberto served as Vice President for Technology at Fritz & Macziol Asia from 2012 to 2016, and as Assistant Vice President for System Operations at SAHITech-STRADCOM.
+            </motion.p>
+            
+            <motion.p className="text-lg leading-relaxed" variants={childVariants}>
+              He was also Country Technical Manager for Transformation Management at IBM Philippines from 2005 to 2008.
+            </motion.p>
           </div>
         </motion.div>
       </div>
