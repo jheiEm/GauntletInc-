@@ -94,33 +94,43 @@ export function Leadership() {
           </div>
         </motion.div>
 
-        <motion.div
-          className="mt-16 pt-16 border-t border-gray-200"
+        <motion.div 
+          className="flex flex-col md:flex-row items-center gap-12 mt-16"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.2 }}
         >
-          <motion.h3
-            className="text-2xl font-semibold text-primary mb-1 font-heading"
+          <motion.div 
+            className="md:w-2/5"
             variants={childVariants}
           >
-            Alberto P. Ambuyo
-          </motion.h3>
-
-          <motion.p className="text-lg text-accent mb-6" variants={childVariants}>
-            Former Vice President and Chief Information Officer, PT&T Corp.
-          </motion.p>
-
-          <motion.p className="text-lg mb-6 leading-relaxed" variants={childVariants}>
-            Alberto P. Ambuyo is the former Vice President and Chief Information Officer (CIO) of the Philippine Telegraph and Telephone Corporation (PT&T), and has since transferred to PT&T's parent company, Menlo Capital. He brings over 30 years of experience in the IT industry.
-          </motion.p>
-
-          <motion.ul className="text-lg leading-relaxed list-disc pl-6 space-y-2" variants={childVariants}>
-            <li>Former Vice President for Technology at Fritz &amp; Macziol Asia (2012–2016)</li>
-            <li>Former Assistant Vice President for System Operations at SAHITech-STRADCOM</li>
-            <li>Former Country Technical Manager for Transformation Management at IBM Philippines (2005–2008)</li>
-          </motion.ul>
+            {/* Placeholder until a photo of Alberto is added to /static */}
+            <div className="rounded-lg overflow-hidden shadow-xl bg-primary aspect-[4/5] flex items-center justify-center">
+              <span className="text-white text-6xl font-semibold font-heading">AA</span>
+            </div>
+          </motion.div>
+          
+          <div className="md:w-3/5">
+            <motion.h3 
+              className="text-2xl font-semibold text-primary mb-4 font-heading"
+              variants={childVariants}
+            >
+              Alberto P. Ambuyo
+            </motion.h3>
+            
+            <motion.p className="text-lg mb-6 leading-relaxed" variants={childVariants}>
+              Alberto P. Ambuyo is the former Vice President and Chief Information Officer (CIO) of the Philippine Telegraph and Telephone Corporation (PT&T). He has since transferred to PT&T's parent company, Menlo Capital, and brings over 30 years of experience in the IT industry.
+            </motion.p>
+            
+            <motion.p className="text-lg mb-6 leading-relaxed" variants={childVariants}>
+              Before PT&T, Alberto served as Vice President for Technology at Fritz & Macziol Asia from 2012 to 2016, and as Assistant Vice President for System Operations at SAHITech-STRADCOM.
+            </motion.p>
+            
+            <motion.p className="text-lg leading-relaxed" variants={childVariants}>
+              He was also Country Technical Manager for Transformation Management at IBM Philippines from 2005 to 2008.
+            </motion.p>
+          </div>
         </motion.div>
       </div>
     </section>
